@@ -1,0 +1,48 @@
+{
+  "name": "conventional-changelog-core",
+  "version": "4.1.2",
+  "description": "conventional-changelog core",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "conventional",
+    "changelog",
+    "log"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "lib",
+    "hosts"
+  ],
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-core#readme",
+  "dependencies": {
+    "add-stream": "^1.0.0",
+    "conventional-changelog-writer": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-writer",
+    "conventional-commits-parser": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-commits-parser",
+    "dateformat": "^3.0.0",
+    "get-pkg-repo": "^1.0.0",
+    "git-raw-commits": "git+https://github.com/kellyselden/conventional-changelog.git#git-raw-commits",
+    "git-remote-origin-url": "^2.0.0",
+    "git-semver-tags": "git+https://github.com/kellyselden/conventional-changelog.git#git-semver-tags",
+    "lodash": "^4.17.15",
+    "normalize-package-data": "^2.3.5",
+    "q": "^1.5.1",
+    "read-pkg": "^3.0.0",
+    "read-pkg-up": "^3.0.0",
+    "shelljs": "^0.8.3",
+    "through2": "^3.0.0"
+  },
+  "scripts": {
+    "test-windows": "mocha --timeout 30000"
+  }
+}
