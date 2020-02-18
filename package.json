@@ -1,0 +1,45 @@
+{
+  "name": "standard-changelog",
+  "version": "2.0.19",
+  "description": "Generate a changelog from git metadata with Angular commit convention",
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/standard-changelog#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "angular",
+    "conventional",
+    "changelog",
+    "log"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "dependencies": {
+    "add-stream": "^1.0.0",
+    "chalk": "^3.0.0",
+    "conventional-changelog-angular": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-angular",
+    "conventional-changelog-core": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-core",
+    "figures": "^3.0.0",
+    "fs-access": "^1.0.0",
+    "lodash": "^4.17.15",
+    "meow": "^5.0.0",
+    "rimraf": "^3.0.0",
+    "sprintf-js": "^1.1.1",
+    "tempfile": "^3.0.0"
+  },
+  "scripts": {
+    "test-windows": "echo 'make work on windows'"
+  },
+  "bin": "cli.js"
+}
