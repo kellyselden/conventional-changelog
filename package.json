@@ -1,0 +1,47 @@
+{
+  "name": "conventional-recommended-bump",
+  "version": "6.0.5",
+  "description": "Get a recommended version bump based on conventional commits",
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "https://github.com/stevemao"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "preset-resolver.js"
+  ],
+  "keywords": [
+    "conventional-recommended-bump",
+    "recommend",
+    "conventional",
+    "bump"
+  ],
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "conventional-changelog-preset-loader": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-preset-loader",
+    "conventional-commits-filter": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-commits-filter",
+    "conventional-commits-parser": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-commits-parser",
+    "git-raw-commits": "git+https://github.com/kellyselden/conventional-changelog.git#git-raw-commits",
+    "git-semver-tags": "git+https://github.com/kellyselden/conventional-changelog.git#git-semver-tags",
+    "meow": "^5.0.0",
+    "q": "^1.5.1"
+  },
+  "scripts": {
+    "test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+  },
+  "bin": "cli.js"
+}
