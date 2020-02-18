@@ -1,0 +1,53 @@
+{
+  "name": "conventional-changelog",
+  "version": "3.1.16",
+  "description": "Generate a changelog from git metadata",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conventional-changelog/conventional-changelog.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "conventional",
+    "changelog",
+    "log"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "contributors": [
+    {
+      "name": "Brian Ford"
+    },
+    {
+      "name": "Vojta Jína"
+    },
+    {
+      "name": "Andrew Joslin"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+  },
+  "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog#readme",
+  "dependencies": {
+    "conventional-changelog-angular": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-angular",
+    "conventional-changelog-atom": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-atom",
+    "conventional-changelog-codemirror": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-codemirror",
+    "conventional-changelog-conventionalcommits": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-conventionalcommits",
+    "conventional-changelog-core": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-core",
+    "conventional-changelog-ember": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-ember",
+    "conventional-changelog-eslint": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-eslint",
+    "conventional-changelog-express": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-express",
+    "conventional-changelog-jquery": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-jquery",
+    "conventional-changelog-jshint": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-jshint",
+    "conventional-changelog-preset-loader": "git+https://github.com/kellyselden/conventional-changelog.git#conventional-changelog-preset-loader"
+  },
+  "scripts": {
+    "test-windows": "mocha --timeout 30000"
+  }
+}
